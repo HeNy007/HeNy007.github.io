@@ -1,37 +1,20 @@
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<html lang="en"><head> 
-<title>Aliwix Video Player</title>
-
-
-
+<!doctype html>
+<html>
+ <head>
+  <link rel="icon" type="image/png" href="https://avatars1.githubusercontent.com/u/59735422?s=60&v=4">  
+  <title>HeNy007 Player</title> 
+  <meta charset="utf-8"> 
+  <meta content="The best html video player" name="description"></meta> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <style type="text/css">html,body {height:100%; width:100%; padding:0px; margin:0px; }
 .players{position:fixed; height:100%;width:100%; padding:0px; margin:0px;}
 video{object-fit:fill;}
-</style></head><body><style>
-div#hls-video_fluid_control_video_source { display: none !important; }
-  div#hls-video_fluid_controls_progress_container{    bottom: 58px;height: 2px; background-color: rgba(255, 0, 0, 0.68);}
-div#hls-video_fluid_control_theatre { position: fixed; top: unset; bottom: 5px; right: 45px; }
-  #hls-video_fluid_controls_container{left: 0px; right: 0px; background: linear-gradient(to bottom,rgba(0,0,0,0.12) 0%,rgba(255, 255, 255, 0.1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#ad000000',GradientType=0); height: 58px;}
-.fluid_video_wrapper .vast_video_loading:after { color: #ffffff73; content: "اضغط على تحديث القناة اذا توقفت عن العمل "; position: absolute; top: 50%; width: 100%; height: 100%; font-family: tahoma; bottom: 0; text-align: center; margin: 0 auto; font-size: 11px; }
-#hls-video_fluid_initial_play_button:before {font-family: tahoma; content: 'شاهد جميع القنوات على عرب كافيه | 3rbcafee.com'; font-weight: bold; font-size: 12px !important; top: 25px; height: unset; color: #efff00; bottom: unset; background: unset; text-shadow: 1px 1px 1px #2b2727; opacity: 0.8;}
-#hls-video_fluid_control_duration:before{content:'مباشر'!important;right:-10px;font-size:12px;}
-  @media screen and (max-width: 1225px){
-    #hls-video_fluid_initial_play_button:before {font-size:15px !important;}
- }
-  @media screen and (max-width: 500px){
-  #hls-video_fluid_control_theatre{display:none !important;}
-    #hls-video_fluid_initial_play_button:before {font-size:12px !important;}
-}
-  .shr, .rfs{cursor:pointer;position: absolute;top:20px;padding: 6px; border: 0; border-radius: 8px; z-index: 99999999999999999999; font-size: 11px; font-family: tahoma; color: #fff; text-decoration: none;background:#b12025;}
-  div#hls-video_fluid_controls_progress_container{background:#b12025;}
-  #hls-video_fluid_control_duration:before{font-family:tahoma;}
-  .fluid_initial_play{width:48px;border-radius:100%;}
-  .fluid_initial_play .fluid_initial_play_button{margin-left:17px;}
-</style>
-
-<div class="players">
+</style></head><body><div class="players">
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<video controls="" height="100%" id="video" width="100%"></video>
+<video id="video" width="100%" height="100%" controls></video>
 <script type="text/javascript">
 function gup(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");
 var n="[\\?$]"+e+"=([^$#]*)",
@@ -54,5 +37,4 @@ var link=gup("src");
             video.play();
           });
         }
-</script></div>
-</body></html></div>
+</script></div></body></html>
