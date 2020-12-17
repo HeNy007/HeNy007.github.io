@@ -1,13 +1,58 @@
-<!DOCTYPE html>
-<html dir='rtl'>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://live.koooragoal.com/build/live/app.219d82aa.css">
-<title>جدول المباريات</title>
-</head>
-<body>
-<div id="root" data-url="https://live.koooragoal.com/soccer"></div>
-<script src="https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/today-matches/aliwixapp.js"></script>
-</body>
-</html>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<html lang="en"><head> 
+<title>Aliwix Video Player</title>
+
+
+
+<style type="text/css">html,body {height:100%; width:100%; padding:0px; margin:0px; }
+.players{position:fixed; height:100%;width:100%; padding:0px; margin:0px;}
+video{object-fit:fill;}
+</style></head><body><style>
+div#hls-video_fluid_control_video_source { display: none !important; }
+  div#hls-video_fluid_controls_progress_container{    bottom: 58px;height: 2px; background-color: rgba(255, 0, 0, 0.68);}
+div#hls-video_fluid_control_theatre { position: fixed; top: unset; bottom: 5px; right: 45px; }
+  #hls-video_fluid_controls_container{left: 0px; right: 0px; background: linear-gradient(to bottom,rgba(0,0,0,0.12) 0%,rgba(255, 255, 255, 0.1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#ad000000',GradientType=0); height: 58px;}
+.fluid_video_wrapper .vast_video_loading:after { color: #ffffff73; content: "اضغط على تحديث القناة اذا توقفت عن العمل "; position: absolute; top: 50%; width: 100%; height: 100%; font-family: tahoma; bottom: 0; text-align: center; margin: 0 auto; font-size: 11px; }
+#hls-video_fluid_initial_play_button:before {font-family: tahoma; content: 'شاهد جميع القنوات على عرب كافيه | 3rbcafee.com'; font-weight: bold; font-size: 12px !important; top: 25px; height: unset; color: #efff00; bottom: unset; background: unset; text-shadow: 1px 1px 1px #2b2727; opacity: 0.8;}
+#hls-video_fluid_control_duration:before{content:'مباشر'!important;right:-10px;font-size:12px;}
+  @media screen and (max-width: 1225px){
+    #hls-video_fluid_initial_play_button:before {font-size:15px !important;}
+ }
+  @media screen and (max-width: 500px){
+  #hls-video_fluid_control_theatre{display:none !important;}
+    #hls-video_fluid_initial_play_button:before {font-size:12px !important;}
+}
+  .shr, .rfs{cursor:pointer;position: absolute;top:20px;padding: 6px; border: 0; border-radius: 8px; z-index: 99999999999999999999; font-size: 11px; font-family: tahoma; color: #fff; text-decoration: none;background:#b12025;}
+  div#hls-video_fluid_controls_progress_container{background:#b12025;}
+  #hls-video_fluid_control_duration:before{font-family:tahoma;}
+  .fluid_initial_play{width:48px;border-radius:100%;}
+  .fluid_initial_play .fluid_initial_play_button{margin-left:17px;}
+</style>
+
+<div class="players">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<video controls="" height="100%" id="video" width="100%"></video>
+<script type="text/javascript">
+function gup(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");
+var n="[\\?$]"+e+"=([^$#]*)",
+l=new RegExp(n),
+c=l.exec(window.location.href);
+return null==c?"https://s6.tntendirect.com/tf1/live/playlist.m3u8":unescape(c[1])}
+var link=gup("src");
+        var video = document.getElementById('video');
+        if(Hls.isSupported()) {
+          var hls = new Hls();
+          hls.loadSource(link);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.MANIFEST_PARSED,function() {
+            video.play();
+        });
+      }
+          else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = 'https://adtv.ercdn.net/adsport1/adsport1_720p.m3u8';
+          video.addEventListener('loadedmetadata',function() {
+            video.play();
+          });
+        }
+</script></div>
+</body></html></div>
