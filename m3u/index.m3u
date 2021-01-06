@@ -1,1 +1,73 @@
-test
+#EXTM3U
+#EXTINF:-1, tvg-id"" tvg-name="xxxxx" tvg-logo="https://www.appcreator24.com/srv/imgs/gen/714329_ico.png" group-title="",[color yellow]Aliwix Tv Lite ➠ www.aliwix-lite.tk[/color]
+https://www.appcreator24.com/srv/imgs/gen/714329_ico.m3u8
+#EXTINF:-1 tvg-logo="https://www.appcreator24.com/srv/imgs/gen/832289_ico.png",[color red]•●★-----|AR BEIN SPORT HD|-----★●•[/color]
+https://www.appcreator24.com/srv/imgs/gen/832289_ico.png?ts=1586514345
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD", Bein BEIN SPORT NEWS HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/12
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 1 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/104
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 2 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/105
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 3 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/106
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 4 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/107
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 5 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/108
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 6 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/109
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 7 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/110
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 8 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/111
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 9 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/112
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 10 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/113
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD", SERVER 2
+#EXTVLCOPT:http-user-agent=
+http://blackfiretv.net:25461/BLACKSPORT/nxhgmhtxhfsnfgsngara/12
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 1 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1747/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 2 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1748/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 3 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1749/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 4 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1750/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 5 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1751/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 6 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1752/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 7 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1753/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 8 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1754/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 9 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1755/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://c2.lestechnophiles.com/lh3.googleusercontent.com/3Wuk1ih4G54SwBFhb05wKZC48h1fuMoQNaYgAJZxch1VuX3Cm6mevsU3Ksre2F2qvGSu=s180" group-title="BEIN HD",|AR| BeIN SPORTS 10 HD
+#EXTVLCOPT:http-user-agent=qwagweh4365u4rjfgngngfnrntnrtn
+http://dx4.gcdn.co/UKS1756/index.m3u8
