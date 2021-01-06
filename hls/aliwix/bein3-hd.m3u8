@@ -1,0 +1,11 @@
+#EXTM3U 
+#EXT-X-VERSION:3
+
+
+
+
+
+
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000
+http://185.246.210.55:2200/EX/bein3hd-ar/index.m3u8?token=123zzzaaaxxaazzzxxx987
