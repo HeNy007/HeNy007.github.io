@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aliwix Sports Live Stream</title>
+
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/aliwixsports/video-js.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/aliwixsports/facebook-player.css">
+    <!-- If you'd like to support IE8 -->
+    <!--<script src="https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/aliwixsports/videojs-min.js"></script>-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body {
+	background-color: #FFFFFF;
+	background-image: url(https://github.com/HeNy007/HeNy-Ben-Hamed/raw/master/aliwixsports/aliwix.gif);
+}
+.style1 {color: #FFFFFF}
+-->
+</style></head>
+<body>
+<center>
+    <h1 class="style1">Aliwix Sports Live Stream</h1>
+    <video controls id="live-stream" class="video-js vjs-default-skin" onvolumechange="myFunction()" onpause="myFunction2()">
+        <source
+                src="http://tw.aloussports.ga/m3u8/twitch/406.php"
+                type="application/x-mpegURL">
+    </video>
+</center>
+<div align="center">
+  <script src="https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/aliwixsports/video.js"></script>
+  <script src="https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/aliwixsports/videojs-contrib-hls.min.js"></script>
+  <script>
+    var options = {};
+    options.width = 900;
+    options.height = 500;
+
+    var player = videojs('live-stream', options);
+    player.play();
+
+    player.addClass('vjs-matrix');
+
+    player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+    });
+    player.one('canplay', function () {
+        console.log('player11111111111111');
+    });
+
+    /**
+     *
+     * ????
+     */
+//    document.getElementById("live-stream").onvolumechange = function() {myFunction()};
+
+    function myFunction() {
+        console.log("");
+    }
+
+    function myFunction2() {
+        console.log("111111111");
+    }
+</script>
+  <script>
+    document.getElementById("live-stream").oncanplay = function() {myFunction2()};
+
+    function myFunction2111() {
+        alert("HeNy007");
+    }
+</script>
+</div>
+</body>
+</html>
