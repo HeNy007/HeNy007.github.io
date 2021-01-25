@@ -1,0 +1,6 @@
+#EXTM3U 
+#EXT-X-VERSION:3
+#EXTVLCOPT:http-user-agent=Arabic_0001
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000
+https://www.facebook.com/video/playback/playlist.m3u8?v=167029458548395
