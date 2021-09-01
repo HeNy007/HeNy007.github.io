@@ -7,5 +7,5 @@
 
 
 
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
 https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/chunklist.m3u8
