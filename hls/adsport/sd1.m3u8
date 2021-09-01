@@ -5,7 +5,5 @@
 
 
 
-
-
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
+#EXT-X-STREAM-INF:BANDWIDTH=555703,AVERAGE-BANDWIDTH=555703,CODECS="avc1.42c01e,mp4a.40.2",RESOLUTION=384x216,FRAME-RATE=25.000
 https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/chunklist.m3u8
