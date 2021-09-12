@@ -44,7 +44,7 @@
     
     #my-video {
         width: 80%;
-        height: 40%;
+        height: auto;
         margin: 0 auto;
         margin-top: 10;
     }
@@ -62,7 +62,7 @@
     #container li:hover {
         color: blueviolet;
     }
-    .jw-controls:before {text-shadow: 1px 1px 2px #000; font-size: 1.5vw;color:fff;position: absolute;
+    .jw-controls:before {text-shadow: 1px 1px 2px #000; font-size: 2vw;color:fff;position: absolute;
     right: 0;bottom: 10;left: 0; z-index: 0;display: flex;
     flex-direction: column;  justify-content: center; align-items: center;
     pointer-events: none; font-family: 'Harmattan', sans-serif; font-weight: bold; text-shadow: 0 3px 3px #000;
@@ -82,9 +82,9 @@
    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/199957094_4214703285256452_1823212191493309809_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=85a577&_nc_ohc=YHZrLww4bO4AX_J6znG&_nc_ht=scontent-lax3-2.xx&tp=14&oh=66c2eecbebc975bdf01bf38d2e91c164&oe=60E5F6F3",
    sharing: {code: '<iframe src="'+ window.location.href +'" frameborder="0" width="800" height="460"></iframe>',},
    link : {code: "'+ window.location.href +'",},   
-     title: 'HeNy007',autostart: "false",width: "98%",height: "60%",
+     title: 'HeNy007',autostart: "false",width: "80%",height: "auto",
      tag:"HeNy007",title:"HeNy007",autostart:"true",stretching:"exactfit",autostretch:"true",
-     logo:{position:"top-left",margin:"20",file:"https://github.com/HeNy007/AliwixPlayer/raw/main/2.png",height:"30"}, 
+     logo:{position:"bottom-left",margin:"40",file:"https://github.com/HeNy007/AliwixPlayer/raw/main/2.png",height:"40"}, 
      flashplayer:"https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/today-matches/jwplayer.flash.swf",tracks:{file:"thumbnails.vtt",kind:"thumbnails"} });
       
     </script>
@@ -92,19 +92,14 @@
   
   <!-- The element where the channel list --> 
   <div id="lists"> 
-<br /><a href="https://facebook.com/aliwixteam2/"><i class="fab fa-facebook-f" style='color:#fff; font-size:32px;'></i></a> &nbsp;&nbsp;
-<a href="https://www.youtube.com/channel/henybnhamed"><i style='color:#fff;font-size:32px;' class="fab fa-youtube"></i></a> &nbsp;&nbsp;
-<a href="https://t.me/AliwixTv"><i style='color:#fff;font-size:32px;' class="fa fa-paper-plane"></i></a> &nbsp;&nbsp;
-<a href="http://m.me/aliwixteam2"><i style='color:#fff;font-size:32px;' class="fab fa-facebook-messenger"></i></a> &nbsp;&nbsp;
-<!------------------------------------End Loading --------------------------------------->
- 
+
    <ul id="container"></ul> 
   </div> 
   <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script> 
   <script>
         $.ajax({
                 type: "GET",
-                url: ' .m3u',
+                url: 'http://exyu.cc/qa?m3u',
                 success: function(message, text, response) {
                     let str = message
                     let array = str.split(" ")
