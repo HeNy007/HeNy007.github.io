@@ -20,7 +20,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
  <link href="https://raw.githack.com/HeNy007/HeNy007.github.io/main/live/style.css" rel="stylesheet"> 
  </head>  
- <body> 
+ <body onLoad="disableClick()">  
  <!-- Top Bar --> 
  <div id="top-bar"> 
  <h2>Aliwix Team - مجموعة أليويكس</h2> 
@@ -38,6 +38,14 @@ eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/
 $(document).bind("contextmenu",function(e) {
  e.preventDefault();
 });
+function disableClick(){ 
+        document.onclick=function(event){ 
+          if (event.button == 2) { 
+            alert('Right Click Message'); 
+            return false; 
+          } 
+        } 
+      } 
  </script>
  <script src="https://raw.githack.com/HeNy007/HeNy007.github.io/main/live/player.js"></script>
  <script src="https://raw.githack.com/HeNy007/HeNy007.github.io/main/live/getm3u.js"></script>
