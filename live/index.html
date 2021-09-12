@@ -1,3 +1,25 @@
+ <?php
+    //javascript source code hiding technique : Philippe PUECH, 2013
+
+    //function thanks to Stackoverflow, slightly modified
+    //http://stackoverflow.com/questions/4356289/php-random-string-generator
+    function RandomString()
+    {
+        $characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        $randstring = '';
+        for ($i = 0; $i < 10; $i++) 
+            {
+                $randstring = $randstring.$characters[rand(0, strlen($characters))];
+            }
+        return $randstring;
+    }
+
+    //simple header script to create a copy of your "precious" javascript ".js" file
+    $original_filename="functions.js"; //find a better (complicated) name for your file
+    $hidden_filename=RandomString().".js";  //temporary filename
+    copy($original_filename,$hidden_filename);
+
+?>
  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
       "http://www.w3.org/TR/html4/strict.dtd">
  <html [COLOR="Red"]viewsource="no"[/COLOR]>
@@ -88,6 +110,10 @@ function disableClick(){
         }
         return true;
     }
+// JavaScript Document
+function testfunc(){
+    alert("It works...");
+}
 </script>
  <script src="https://raw.githack.com/HeNy007/HeNy007.github.io/main/live/player.js"></script>
  <script src="https://raw.githack.com/HeNy007/HeNy007.github.io/main/live/getm3u.js"></script>
@@ -97,3 +123,9 @@ function disableClick(){
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
  </body>
  </html>
+<?php
+    sleep(1);
+    //you can comment following line
+    echo "finished !";
+    unlink($hidden_filename);
+?>
