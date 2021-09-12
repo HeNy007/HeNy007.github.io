@@ -5,10 +5,6 @@ function writeHTMLasJS(){
 	HeNy007 += "  <div id=\"top-bar\"> ";
 	HeNy007 += "   <h2>Aliwix Team - مجموعة أليويكس</h2> ";
 	HeNy007 += "  </div>";
-	HeNy007 += "  <!-- The element where the player will be placed --> ";
-	HeNy007 += "  <div id=\"player\"> ";
-	HeNy007 += "   <div id=\"my-video\"></div>";
-	HeNy007 += "  <!-- The element where the channel list --> ";
 	HeNy007 += "  <ul id=\"container\"></ul> ";
 	HeNy007 += "  </div>";
 	HeNy007 += "<center>";
