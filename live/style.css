@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+    body,
+    html {
+        background: #111111;
+        overflow-x: hidden;
+    }
+    
+    #top-bar {
+        width: 100%;
+        height: 40px;
+        background: #111222;
+    }
+    
+    #top-bar h2 {
+    font-family: 'Cairo', sans-serif;
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+    
+    #player-wrapper {
+        margin-top: 10px;
+    }
+    
+    #my-video {
+        width: 97%;
+        height: 460;
+        margin: 0 auto;
+        margin-top: 10;
+    }
+    
+    .video-js .vjs-big-play-button {
+        top: 50%;
+        left: 50%;
+    }
+    
+    #container li {
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    #container li:hover {
+        color: blueviolet;
+    }
+    .jw-controls:before {text-shadow: 1px 1px 2px #000; font-size: 2vw;color:fff;position: absolute;
+    right: 0;bottom: 10;left: 0; z-index: 0;display: flex;
+    flex-direction: column;  justify-content: center; align-items: center;
+    pointer-events: none; font-family: 'Cairo', sans-serif; font-weight: bold; text-shadow: 0 3px 3px #000;
+    content: "مجموعة أليويكس - aliwixplay.netlify.app"; height: 100px;} 
+      img.animated-gif {
+      width:97%;
+      pending:0px;
+      height: 60px;
+      border:4px red;
+      border-style: dashed;
+      background-color: #eee;
+      }
+    iframe {
+    width: 97%;
+    height: 100vw;
+    pointer-events: none;
+    }
