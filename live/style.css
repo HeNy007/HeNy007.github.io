@@ -52,12 +52,12 @@
       width:97%;
       pending:0px;
       height: 57px;
-      border:3px #00008B;
+      border:3px red;
       border-style: dashed;
       background-color: #eee;
       }
     iframe {
     width: 97%;
-    height: 360;
+    height: 380;
     pointer-events: none;
     }
