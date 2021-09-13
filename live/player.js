@@ -1,5 +1,5 @@
 jwplayer("my-video").setup({
-   file: "https://ssc-5-ak.akamaized.net/out/v1/38c9aca1b6bb4239bb7ca409548a2762/index.m3u8",
+   file: "https://heny007.github.io/hls/duhok.m3u8",
    image: "https://scontent.ftun1-2.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/71318015_380217256223031_2019411863581753344_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&_nc_ohc=fEYS3VxbZ3EAX-wnGVD&_nc_ht=scontent.ftun1-2.fna&oh=1787679960ad14b11c44af14ecf58600&oe=61641E55",
    sharing: {code: '<iframe src="'+ window.location.href +'" frameborder="0" width="800" height="460"></iframe>',},
    link : {code: "'+ window.location.href +'",},   
