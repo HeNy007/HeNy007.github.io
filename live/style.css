@@ -51,13 +51,13 @@
       img.animated-gif {
       width:97%;
       pending:0px;
-      height: 60px;
+      height: 65px;
       border:4px red;
       border-style: dashed;
       background-color: #eee;
       }
     iframe {
     width: 97%;
-    height: 100vw;
+    height: 90vw;
     pointer-events: none;
     }
