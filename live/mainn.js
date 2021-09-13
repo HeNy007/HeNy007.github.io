@@ -8,6 +8,7 @@ function writeHTMLasJS(){
 	HeNy007 += " <div>";
 	HeNy007 += " <iframe src=\"https://live.koooragoal.com/\"></iframe>";
 	HeNy007 += "</div>";
+        HeNy007 += " <img class=\"animated-gif\" src=\"http://d1pr3sk5xr0dce.cloudfront.net/banners/728x90_ani.gif\" onclick=\"window.location='https://adcash.myadcash.com/register?prmid=J35D6TGFBN';\"><br>";
 	HeNy007 += "</center>";
 
 	document.getElementById("js_html").innerHTML = HeNy007;
