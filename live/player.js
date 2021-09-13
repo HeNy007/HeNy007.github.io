@@ -1,5 +1,5 @@
 jwplayer("my-video").setup({
-   file: "https://heny007.github.io/hls/duhok.m3u8",
+   file: "https://tv.chachatv.tk:443/live/ca3531Kigg/NlM6tTESL2/217.m3u8",
    image: "https://scontent.ftun1-2.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/71318015_380217256223031_2019411863581753344_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&_nc_ohc=fEYS3VxbZ3EAX-wnGVD&_nc_ht=scontent.ftun1-2.fna&oh=1787679960ad14b11c44af14ecf58600&oe=61641E55",
    sharing: {code: '<iframe src="'+ window.location.href +'" frameborder="0" width="800" height="460"></iframe>',},
    link : {code: "'+ window.location.href +'",},   
