@@ -2,10 +2,10 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
 #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1500000,NAME=720p,RESOLUTION=1280x720
-http://xcwsnl28.mrnova.online/live/60050_.m3u8?token=beddd1d657cb4e9b975cac7921f28606
+http://xcwsnl28.mrnova.online/live/60050_.m3u8?token=beddd1d657cb4e9b975cac7921f28606?.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1200000,NAME=480p,RESOLUTION=854x480
-http://xcwsnl28.mrnova.online/live/60030_.m3u8?token=beddd1d657cb4e9b975cac7921f28606
+http://19.alysineoura.xyz/live/6161655/index.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=625000,NAME=360p,RESOLUTION=640x360
-http://xcwsnl28.mrnova.online/live/60000_.m3u8?token=beddd1d657cb4e9b975cac7921f28606
+http://6.alysineoura.xyz/live/88824257/index.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=375000,NAME=240p,RESOLUTION=426x240
 http://stream.tvtap.live:8081/live/bein9.stream/chunks.m3u8
