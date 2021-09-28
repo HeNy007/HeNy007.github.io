@@ -1,0 +1,9 @@
+.box {
+  height:100%;
+}
+iframe {
+    width: 99%;
+    height: 99%;
+    pointer-events: none;
+    }
+      
