@@ -1,4 +1,4 @@
-<script>
+
 function writeHTMLasJS(){
 	var HeNy007 = "";
 	HeNy007 += "<div class=\"main\">";
@@ -9,4 +9,3 @@ function writeHTMLasJS(){
 }
 
 writeHTMLasJS();
-</script>
