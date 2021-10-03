@@ -6,4 +6,4 @@ http://iptv.journalsat.com:25461/216714968/journalsat/11
 #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1200000,NAME=480p,RESOLUTION=854x480
 http://iptv.journalsat.com:25461/216714968/journalsat/173
 #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=375000,NAME=240p,RESOLUTION=426x240
-http://iptv.journalsat.com:25461/216714968/journalsat/112
+http://stream.tvtap.live:8081/live/bein10.stream/chunks.m3u8
