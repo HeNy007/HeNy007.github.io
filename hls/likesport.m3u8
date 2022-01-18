@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-ALLOW-CACHE:NO
+http://halowtv.xyz:1935/live/Likesport/playlist.m3u8
