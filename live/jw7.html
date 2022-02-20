@@ -10,15 +10,7 @@ delete window.document.referrer;
         window.document.__defineGetter__('referrer', function () {
             return "http://qanat.tv/1";
         });
-Object.defineProperty(document, "referrer", {get : function(){ return "http://qanat.tv/1"; }});
-$.ajaxSetup({
-  beforeSend: function(request) {
-    request.setRequestHeader("User-Agent","HeNy007");
-  }
-});
-Object.defineProperty(navigator, 'userAgent', {
-    get: function () { return 'HeNy007'; }
-});
+
 function $_GET(e)
 {var r={};return window.location.href.replace(location.hash,"")
 .replace(/[?$]+([^=$]+)=?([^$]*)?/gi,function(e,t,a){r[t]=void 0!==a?a:"http://157.90.23.255/upload/images/logo01.m3u8"}),e?r[e]?r[e]:null:r}
