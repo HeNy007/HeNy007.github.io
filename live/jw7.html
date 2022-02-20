@@ -6,10 +6,11 @@ body {height: 100%; margin: 0; padding: 0; background-color: #000;}</style>
 <div id="player">Loading the player...</div>
 <meta name="referrer" content="default" />
 <script>
-delete window.document.referrer;
-        window.document.__defineGetter__('referrer', function () {
-            return "http://qanat.tv/1";
-        });
+Object.defineProperty(document, "referrer", {get : function(){ return "http://qanat.tv/1"; }});
+
+Object.defineProperty(navigator, 'userAgent', {
+    get: function () { return 'HeNy007'; }
+});
 
 function $_GET(e)
 {var r={};return window.location.href.replace(location.hash,"")
