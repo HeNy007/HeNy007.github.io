@@ -20,9 +20,28 @@
         <meta http-equiv="refresh" content="1; url=go:HeNy007" />
 	<title>Download HeNyIPTV</title>
 	<link rel="shortcut icon" type="image/png" href="https://007iptv.netlify.app/public/ico/logofav.png" />
-	
+	<style>
+.preloader {
+position: fixed;
+left: 0;
+top: 0;
+z-index: 999;
+width: 100%;
+height: 100%;
+background: #fff url("https://heny007.github.io/loading-45.gif");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+background-attachment: fixed;
+}
+</style><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).on("load", function() {
+      $(".preloader").fadeOut("slow")
+    })
+  </script>
 </head>
-<body>
+<body><div class="preloader"></div>
 <script type="text/javascript">
   window.location.href = "go:HeNy007";
 </script>
