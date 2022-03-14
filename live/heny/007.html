@@ -78,11 +78,11 @@
   </div> 
   <div class="inner-wrap"> 
    <div class="inner-content"> 
-    <h2 class="cmp-title animated ">" AliwixPlay - APP "</h2> </br>
+    <h2 onclick="goto();" class="cmp-title animated ">Download AliwixPlay</h2> </br>
     <div class="content">  
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clappr/0.3.9/clappr.min.js"></script> 
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6956329261304142" crossorigin="anonymous"></script><center> 
-     <iframe width="97%" height="460" src="https://ok.ru/videoembed/3735327022619" frameborder="0" allow="autoplay" allowfullscreen></iframe></center>
+<div id="ad54"></div></center>
     </div> 
     <div class="social-wrapper body"> 
      <ul class="social-list">
@@ -94,11 +94,24 @@
     </div> 
    </div> 
    <footer>
-    <p class="copyright">© HeNy007</p>
+    <p onclick="goto();" class="copyright">© HeNy007</p>
    </footer> 
   </div> 
+
+
   <!-- Fade in background image after load --> 
   <script>
+  	
+  	function gup(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");
+var n="[\\?&]"+e+"=([^&#]*)",
+l=new RegExp(n),
+c=l.exec(window.location.href);
+return null==c?"admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8":unescape(c[1])}
+var video=gup("src");
+var iptv=(video);
+
+
+
         window.addEventListener("load",function(event) {
             init();
         });
@@ -147,7 +160,25 @@
             }
           }
         })( window, document );
-    </script> 
+        
+        function goto(){
+       location.href = "https://aliwixplay.netlify.app/"
+   }
+    </script> <script>
+	window.onload = function(){
+   var link = "http://aliwix-lite.blogspot.com/p/plyr-http.html?src=" +iptv
+var iframe = document.createElement('iframe');
+iframe.frameBorder=0;
+iframe.width="99%";
+iframe.height="450px";
+iframe.id="randomid";
+iframe.setAttribute("src", link);
+document.getElementById("ad54").appendChild(iframe);
+
+}
+	</script>
+   
+    
   <!-- Build by CMP – Coming Soon Maintenance Plugin by NiteoThemes --> 
   <!-- Visit plugin page https://wordpress.org/plugins/cmp-coming-soon-maintenance/ --> 
   <!-- More CMP Themes on https://niteothemes.com -->   
