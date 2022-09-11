@@ -4,6 +4,6 @@
 
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.25 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streamservicehd.click
+#EXTVLCOPT:http-referer=https://streamservicehd.click
 https://webui.vhls.ru.com/lb/premium31/index.m3u8
 
