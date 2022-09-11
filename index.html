@@ -41,13 +41,20 @@ background-attachment: fixed;
     })
   </script>
 </head>
-<body><script>window.googleJavaScriptRedirect=1</script>
-<META name="referrer" content="origin">
-<script>var n={navigateTo:function(b,a,d){if(b!=a&&b.google){if(b.google.r){b.google.r=0;b.location.href=d;a.location.replace("about:blank");}}else{a.location.replace(d);}}};n.navigateTo(window.parent,window,"https://aliwixplay.tn/app");
+<body><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script>
+
+    var ref = document.referrer;
+    document.write('document.referrer: ' + ref)
+
+           $("a").click(function() { 
+            
+        if (ref === "https://www.google.com/" || ref === "https://www.google.tn/") {
+            window.location.replace = "https://stackoverflow.com";
+        }
+    });
+
 </script>
-<noscript>
-<META http-equiv="refresh" content="0;URL='https://aliwixplay.tn/app'">
-</noscript>
 <title>Page Redirection</title>
 
 </body>
