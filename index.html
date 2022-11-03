@@ -20,42 +20,50 @@
         <meta http-equiv="refresh" content="5; url=" />
 	<title>Download HeNyIPTV</title>
 	<link rel="shortcut icon" type="image/png" href="https://007iptv.netlify.app/public/ico/logofav.png" />
-	<style>
-.preloader {
-position: fixed;
-left: 0;
-top: 0;
-z-index: 999;
-width: 100%;
-height: 100%;
-background: #fff url("https://heny007.github.io/loading-45.gif");
-background-repeat: no-repeat;
-background-position: center center;
-background-size: contain;
-background-attachment: fixed;
+	
+<style>
+body,html{
+  height: 100%;
+  width: 100%;
 }
-</style><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script>
-    $(window).on("load", function() {
-      $(".preloader").fadeOut("slow")
-    })
-  </script>
-</head>
-<body><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-<script>
-
-    var ref = document.referrer;
-    document.write('document.referrer: ' + ref)
-
-           $("a").click(function() { 
-            
-        if (ref === "https://www.google.com/" || ref === "https://www.google.tn/") {
-            window.location.replace = "https://stackoverflow.com";
-        }
-    });
-
-</script>
-<title>Page Redirection</title>
-
-</body>
+body{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141717;
+}
+svg{
+  height: 80vh;
+  width: 80vh;
+  max-height: 480px;
+  min-width: 480px;
+}
+          </style>	
+   </head>
+   <body>
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <path id="move-path" d="M102.546 83.5C109.859 70.8333 128.141 70.8333 135.454 83.5L157.971 122.5C165.284 135.167 156.143 151 141.517 151H96.4833C81.8571 151 72.7158 135.167 80.0289 122.5L102.546 83.5Z" fill="#D9D9D9"/>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -32"/>
+    </filter>
+</defs>
+<g filter="url(#goo)">
+    <circle cx="119" cy="74" r="20" stroke="#6f8191" stroke-width="8"/>
+    <circle cx="79" cy="141" r="20" stroke="#6f8191" stroke-width="8"/>
+    <circle cx="157" cy="141" r="20" stroke="#6f8191" stroke-width="8"/>
+    <circle cx="0" cy="0" r="14" fill="#6f8191">
+        <animateMotion path="M102.546 83.5C109.859 70.8333 128.141 70.8333 135.454 83.5L157.971 122.5C165.284 135.167 156.143 151 141.517 151H96.4833C81.8571 151 72.7158 135.167 80.0289 122.5L102.546 83.5Z" dur="2s" repeatCount="indefinite" />
+    </circle> 
+</g>
+</svg>
+<script type="text/javascript">
+          window.location.reload(true);
+          setTimeout(function () {
+          window.location.href= "https://aliwixplay.tn/app","_self"'; // the redirect goes here
+                                 },2000); // 2 seconds
+ </script>
+ </body>
 </html>
