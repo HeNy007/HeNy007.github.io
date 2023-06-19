@@ -1,0 +1,7 @@
+#EXTM3U 
+
+#EXT-X-VERSION:3
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000
+
+http://sg.tinchuanchuaanh.com:8080/ANIMAX_HD/index.m3u8
